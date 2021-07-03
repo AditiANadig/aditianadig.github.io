@@ -1,0 +1,179 @@
+.card-container.card {
+    max-width: 26rem;
+    padding: 3rem;
+}
+
+.card {
+    background-color: #F7F7F7;
+    margin: 0 auto 2rem;
+    margin-top: 5rem;
+    box-shadow: 2px 4px 15px 1px #ffffff20;
+}
+
+.profile-img-card {
+    width: 7rem;
+    height: 7rem;
+    margin: 0 auto 1rem;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.form-signin #inputEmail, .form-signin #inputPassword {
+    height: 3rem;
+    font-size: 1rem;
+}
+
+.form-signin input[type=email], .form-signin input[type=password], .form-signin input[type=text], .form-signin button {
+    width: 100%;
+    display: block;
+    margin-bottom: 1.5rem;
+}
+
+.form-signin .form-control:focus {
+    border-color: rgb(104, 145, 162);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+}
+
+.btn.btn-signin {
+    background-color: rgb(104, 145, 162);
+    padding: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    height: 36px;
+    border-radius: 3px;
+    border: none;
+}
+
+.btn.btn-signin:hover, .btn.btn-signin:active, .btn.btn-signin:focus {
+    background-color: rgb(12, 97, 33);
+}
+
+body {
+  background-color: white ;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  background-color: #7f6A60;
+  position:fixed;
+  min-width:20%;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 1rem;
+  margin: 3rem 0;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.sidebar a.active, .sidebar a:hover:not(.active) {
+  background-color: #333;
+}
+
+.dashboard, .foodboard, .orderboard, .userboard {
+  margin: 2rem 3rem;
+  margin-left:6rem;
+  padding:1rem 2rem;
+  background-color: #333;
+  border: 0.5px solid #777;
+  color: white;
+  box-shadow: 2px 6px 15px 1px #22222299;
+}
+
+.dash, .food, .order {
+  padding: 2rem;
+  text-align: center;
+}
+
+.dashhead, .foodhead, .orderhead {
+  padding: 1rem;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 3px solid #ffffff50;
+}
+
+.dashfood, .dashorder, .dashuser {
+  margin: 2rem 2.5rem;
+  margin-bottom:0;
+  border-bottom: 1px solid #ffffff20;
+  font-size: 1.5rem;
+}
+
+.foodhead, .orderhead {
+  padding:0 1rem;
+}
+
+.food, .order {
+  text-align: left;
+  padding-left: 0;
+}
+
+.addfoodbtn, .orderidbtn {
+  float:right;
+  margin-top:3rem;
+}
+
+.trash:hover {
+  color: #a00;
+}
+
+.orderidbtn {
+  font-size: 1rem;
+  padding:1rem 0.5rem;
+}
+
+@media screen and (max-width: 767.5px) {
+  .dashboard, .foodboard, .orderboard, .userboard {
+    margin-left: 15rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {
+    float: left;
+    font-size: 0.8rem;
+    margin: 0rem 0.5rem;
+    padding: 1.3rem 0.5rem;
+  }
+  .sidebar a.active {
+    background-color: #22222200;
+    color: #222;
+  }
+
+  .sidebar a:hover:not(.active) {
+    background-color: #22222200;
+    color: #222;
+  }
+  .dashboard, .foodboard, .orderboard, .userboard {
+    margin-left: 3rem;
+  }
+  .dashhead, .foodhead, .orderhead {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .dashfood, .dashorder, .dashuser {
+    font-size: 1.2rem;
+  }
+  .order {
+    font-size: 2.8rem;
+  }
+  .orderidbtn {
+    font-size: 0.75rem;
+    padding:0.8rem 0.3rem;
+  }
+}
