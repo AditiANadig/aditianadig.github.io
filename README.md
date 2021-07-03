@@ -1,7 +1,7 @@
 # aditianadig.github.io
 
 
-FOOD ORDERING SYSTEM - JUST DESI
+RESTAURANT MANAGEMENT SYSTEM - JUST DESI
 --------------------------------
 
 Login Details for Admin
